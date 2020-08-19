@@ -62,8 +62,7 @@ class BookListClient {
                    
                    do {
                        let decoder = JSONDecoder()
-//                    decoder.keyDecodingStrategy = .convertFromSnakeCase // specifies the type of decoding
-//                    decoder.dateDecodingStrategy = .iso8601
+
                     let bookinfo = try decoder.decode([BookLists].self, from: data)
                     
                    
