@@ -38,7 +38,7 @@ class BookListClient {
         
     func getBookListInfo( completed: @escaping (Result<[BookLists], ErrorMessages>) -> Void) {
             let endPoint = baseURL //initialize endpoint
-              
+              // Convert string to URL type
                guard let url = URL(string: endPoint) else {
                    completed(Result.failure(.invalid))
                    return

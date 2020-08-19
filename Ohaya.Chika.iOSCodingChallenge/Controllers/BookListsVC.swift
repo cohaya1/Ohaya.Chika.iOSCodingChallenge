@@ -73,7 +73,7 @@ class BookListsVC: UIViewController {
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: BookListCell.booklistscells)as! BookListsCell
             let bookdirectory = booklistdata[indexPath.row]
-            cell.configureUIElements(employee: bookdirectory)
+            cell.configureUIElements(bookinformation: bookdirectory)
             
             return cell
             // us as to give it access to the employee cell list

@@ -10,6 +10,9 @@
 		1D59FCDB24EA1DEE00D038E4 /* CustomBodylabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59FCDA24EA1DEE00D038E4 /* CustomBodylabel.swift */; };
 		1D59FCDC24EA1DEE00D038E4 /* CustomBodylabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59FCDA24EA1DEE00D038E4 /* CustomBodylabel.swift */; };
 		1D59FCDD24EA1DEE00D038E4 /* CustomBodylabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59FCDA24EA1DEE00D038E4 /* CustomBodylabel.swift */; };
+		1D80653624EA5B5C00FED1BE /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D80653524EA5B5C00FED1BE /* CustomAlertViewController.swift */; };
+		1D80653724EA5B5C00FED1BE /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D80653524EA5B5C00FED1BE /* CustomAlertViewController.swift */; };
+		1D80653824EA5B5C00FED1BE /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D80653524EA5B5C00FED1BE /* CustomAlertViewController.swift */; };
 		1D861F5524E872B400B7D7FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861F5424E872B400B7D7FF /* AppDelegate.swift */; };
 		1D861F5724E872B400B7D7FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861F5624E872B400B7D7FF /* SceneDelegate.swift */; };
 		1D861F5924E872B400B7D7FF /* BookListsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861F5824E872B400B7D7FF /* BookListsVC.swift */; };
@@ -51,9 +54,6 @@
 		1D861FCA24E8A41200B7D7FF /* ExtensionsAndUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861FC024E8A41200B7D7FF /* ExtensionsAndUtilities.swift */; };
 		1D861FCB24E8A41200B7D7FF /* ExtensionsAndUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861FC024E8A41200B7D7FF /* ExtensionsAndUtilities.swift */; };
 		1D861FCC24E8A41200B7D7FF /* ExtensionsAndUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861FC024E8A41200B7D7FF /* ExtensionsAndUtilities.swift */; };
-		1D861FCE24E8AE2200B7D7FF /* CustomAlertVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861FCD24E8AE2100B7D7FF /* CustomAlertVCViewController.swift */; };
-		1D861FCF24E8AE2200B7D7FF /* CustomAlertVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861FCD24E8AE2100B7D7FF /* CustomAlertVCViewController.swift */; };
-		1D861FD024E8AE2200B7D7FF /* CustomAlertVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861FCD24E8AE2100B7D7FF /* CustomAlertVCViewController.swift */; };
 		1D861FD224E904F900B7D7FF /* BookListsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861FD124E904F900B7D7FF /* BookListsCell.swift */; };
 		1D861FD324E904F900B7D7FF /* BookListsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861FD124E904F900B7D7FF /* BookListsCell.swift */; };
 		1D861FD424E904F900B7D7FF /* BookListsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D861FD124E904F900B7D7FF /* BookListsCell.swift */; };
@@ -78,6 +78,7 @@
 
 /* Begin PBXFileReference section */
 		1D59FCDA24EA1DEE00D038E4 /* CustomBodylabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBodylabel.swift; sourceTree = "<group>"; };
+		1D80653524EA5B5C00FED1BE /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
 		1D861F5124E872B400B7D7FF /* Ohaya.Chika.iOSCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ohaya.Chika.iOSCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D861F5424E872B400B7D7FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D861F5624E872B400B7D7FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +104,6 @@
 		1D861FBE24E8A41200B7D7FF /* ErrorMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
 		1D861FBF24E8A41200B7D7FF /* Image and Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image and Constants.swift"; sourceTree = "<group>"; };
 		1D861FC024E8A41200B7D7FF /* ExtensionsAndUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionsAndUtilities.swift; sourceTree = "<group>"; };
-		1D861FCD24E8AE2100B7D7FF /* CustomAlertVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomAlertVCViewController.swift; path = "../../SquareMobileProject-Chika/SquareMobileProject-Chika/Controller/CustomAlertVCViewController.swift"; sourceTree = "<group>"; };
 		1D861FD124E904F900B7D7FF /* BookListsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookListsCell.swift; path = "../../SquareMobileProject-Chika/SquareMobileProject-Chika/Cells/BookListsCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +148,15 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		1D80653124EA5A7B00FED1BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D861F5824E872B400B7D7FF /* BookListsVC.swift */,
+				1D80653524EA5B5C00FED1BE /* CustomAlertViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		1D861F4824E872B400B7D7FF = {
 			isa = PBXGroup;
 			children = (
@@ -173,8 +182,7 @@
 			children = (
 				1D861F5424E872B400B7D7FF /* AppDelegate.swift */,
 				1D861F5624E872B400B7D7FF /* SceneDelegate.swift */,
-				1D861FCD24E8AE2100B7D7FF /* CustomAlertVCViewController.swift */,
-				1D861F5824E872B400B7D7FF /* BookListsVC.swift */,
+				1D80653124EA5A7B00FED1BE /* Controllers */,
 				1D861FD124E904F900B7D7FF /* BookListsCell.swift */,
 				1D861F9324E8A3AE00B7D7FF /* Views */,
 				1D861FBC24E8A41200B7D7FF /* Constants  */,
@@ -362,9 +370,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D861FCE24E8AE2200B7D7FF /* CustomAlertVCViewController.swift in Sources */,
 				1D861FC424E8A41200B7D7FF /* ErrorMessages.swift in Sources */,
 				1D861FC124E8A41200B7D7FF /* UIView AlertExtension.swift in Sources */,
+				1D80653624EA5B5C00FED1BE /* CustomAlertViewController.swift in Sources */,
 				1D861FAD24E8A3AE00B7D7FF /* CustomAlertView.swift in Sources */,
 				1D861F8C24E874C900B7D7FF /* NetworkManager.swift in Sources */,
 				1D861F5924E872B400B7D7FF /* BookListsVC.swift in Sources */,
@@ -398,8 +406,8 @@
 				1D861FCB24E8A41200B7D7FF /* ExtensionsAndUtilities.swift in Sources */,
 				1D861FA824E8A3AE00B7D7FF /* CustomTitleLabel.swift in Sources */,
 				1D861F6F24E872BC00B7D7FF /* Ohaya_Chika_iOSCodingChallengeTests.swift in Sources */,
+				1D80653724EA5B5C00FED1BE /* CustomAlertViewController.swift in Sources */,
 				1D861FC224E8A41200B7D7FF /* UIView AlertExtension.swift in Sources */,
-				1D861FCF24E8AE2200B7D7FF /* CustomAlertVCViewController.swift in Sources */,
 				1D861FBA24E8A3AF00B7D7FF /* CustomImageViewSmall.swift in Sources */,
 				1D59FCDC24EA1DEE00D038E4 /* CustomBodylabel.swift in Sources */,
 			);
@@ -420,8 +428,8 @@
 				1D861FCC24E8A41200B7D7FF /* ExtensionsAndUtilities.swift in Sources */,
 				1D861FA924E8A3AE00B7D7FF /* CustomTitleLabel.swift in Sources */,
 				1D861F7A24E872BC00B7D7FF /* Ohaya_Chika_iOSCodingChallengeUITests.swift in Sources */,
+				1D80653824EA5B5C00FED1BE /* CustomAlertViewController.swift in Sources */,
 				1D861FC324E8A41200B7D7FF /* UIView AlertExtension.swift in Sources */,
-				1D861FD024E8AE2200B7D7FF /* CustomAlertVCViewController.swift in Sources */,
 				1D861FBB24E8A3AF00B7D7FF /* CustomImageViewSmall.swift in Sources */,
 				1D59FCDD24EA1DEE00D038E4 /* CustomBodylabel.swift in Sources */,
 			);
